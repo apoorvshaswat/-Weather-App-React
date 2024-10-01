@@ -12,7 +12,8 @@ function SearchEngine({ query, setQuery, search }) {
         onKeyPress={(e) => e.key === "Enter" && search(e)}
       />
       <button onClick={search}>
-        <i className="fas fa-search" style={{ fontSize: "18px" }}></i>
+        <i className="fas fa-search" style={{ fontSize: "18px" }}></i>{" "}
+        {/* Search icon */}
       </button>
     </div>
   );
